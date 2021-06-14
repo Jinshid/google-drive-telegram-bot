@@ -42,7 +42,7 @@ def map(pos):
         button = [
             [
              InlineKeyboardButton(text = 'Join Us', url = SUPPORT_CHAT_LINK),
-             InlineKeyboardButton(text = 'Developer', url = "https://t.me/Ehrmantraut")
+             InlineKeyboardButton(text = 'Project Source', url = "https://telegra.ph/file/5e752feccceab95841188.jpg")
             ],
             [InlineKeyboardButton(text = '<--', callback_data = f"help+{pos-1}")]
 
